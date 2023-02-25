@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="JMoney">
+
+  <title>JMoney</title>
+
+  <body>
+<!--
+    <links>
+      <item name="Deutsch"                     href="http://jmoney.sf.net/de/"/>
+    </links>
+-->
+    <menu name="JMoney">
+      <item name="Home"                    href="/index.html"/>
+      <item name="Screenshots"             href="/screenshots.html"/>
+      <item name="Download"                href="/download.html"/>
+      <item name="Install"                 href="/install.html"/>
+      <item name="Links"                   href="/links.html"/>
+      <item name="SourceForge"             href="http://sourceforge.net/projects/jmoney"/>
+    </menu>
+  </body>
+
+
+</project>

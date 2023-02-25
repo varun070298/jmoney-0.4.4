@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+This is the Maven Project Descriptor.
+It is used to generate the website.
+
+Commands: 
+maven site:generate
+maven site:deploy
+
+See:: http://jakarta.apache.org/turbine/maven
+-->
+
+<project>
+  <pomVersion>3</pomVersion>
+  <name>JMoney</name>
+  <id>jmoney</id>
+  <currentVersion>0.4.4</currentVersion>
+  <organization>
+    <name>Johann Gyger</name>
+    <url>http://sourceforge.net</url>
+    <logo>http://sourceforge.net/sflogo.php?group_id=17482&amp;type=2</logo>
+  </organization>
+  <inceptionYear>2000</inceptionYear>
+  <package>net.sf.jmoney</package>
+
+  <shortDescription>Personal Finance Manager</shortDescription>
+
+  <description>
+    JMoney is a personal finance manager written in Java.
+  </description>
+
+  <url>http://jmoney.sf.net</url>
+  <logo>http://jmoney.sf.net/logo.php</logo>
+  <issueTrackingUrl>
+    http://sourceforge.net/tracker/?group_id=17482
+  </issueTrackingUrl>
+
+  <siteAddress>jmoney.sourceforge.net</siteAddress>
+  <siteDirectory>/home/groups/j/jm/jmoney/htdocs/</siteDirectory>
+  <repository>
+    <connection>
+      scm:cvs:pserver:anonymous@cvs.jmoney.sourceforge.net:/cvsroot/jmoney:jmoney
+    </connection>
+    <url>
+      http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/jmoney/jmoney/
+    </url>
+  </repository>
+
+  <versions>
+    <version>
+      <id>0.4.3</id>
+      <name>0.4.3</name>
+      <tag>rel-0_4_3</tag>
+    </version>
+    <version>
+      <id>0.4.2</id>
+      <name>0.4.2</name>
+      <tag>rel-0_4_2</tag>
+    </version>
+    <version>
+      <id>0.4.1</id>
+      <name>0.4.1</name>
+      <tag>rel-0_4_1</tag>
+    </version>
+    <version>
+      <id>0.4.0</id>
+      <name>0.4.0</name>
+      <tag>rel-0_4_0</tag>
+    </version>
+    <version>
+      <id>0.3.3</id>
+      <name>0.3.3</name>
+      <tag>rel-0_3_3</tag>
+    </version>
+    <version>
+      <id>0.3.2</id>
+      <name>0.3.2</name>
+      <tag>rel-0_3_2</tag>
+    </version>
+    <version>
+      <id>0.3.1</id>
+      <name>0.3.1</name>
+      <tag>rel-0_3_1</tag>
+    </version>
+    <version>
+      <id>0.3.0</id>
+      <name>0.3.0</name>
+      <tag>start</tag>
+    </version>
+  </versions>
+
+  <mailingLists>
+    <mailingList>
+      <name>JMoney User List</name>
+      <subscribe>
+        http://lists.sourceforge.net/lists/listinfo/jmoney-user
+      </subscribe>
+      <unsubscribe>
+        http://lists.sourceforge.net/lists/listinfo/jmoney-user
+      </unsubscribe>
+    </mailingList>
+    <mailingList>
+      <name>JMoney Developer List</name>
+      <subscribe>
+        http://lists.sourceforge.net/lists/listinfo/jmoney-devel
+      </subscribe>
+      <unsubscribe>
+        http://lists.sourceforge.net/lists/listinfo/jmoney-devel
+      </unsubscribe>
+    </mailingList>
+  </mailingLists>
+
+  <developers>
+    <developer>
+      <name>Johann Gyger</name>
+      <id>jgyger</id>
+      <email>jgyger@users.sf.net</email>
+      <organization></organization>
+    </developer>
+  </developers>
+
+  <contributors>
+    <contributor>
+      <name>Dave Lyon</name>
+      <email>dave@mahonri.com</email>
+      <organization>mahonri.com</organization>
+      <roles>
+	<role>
+	  Cool icons and graphics
+	</role>
+      </roles>
+    </contributor>
+
+    <contributor>
+      <name>Matteo Regazzi</name>
+      <email>matteo.regazzi@diagramaps.it</email>
+      <organization>Diagram APS Italy</organization>
+      <roles>
+	<role>
+	  Italian localization
+	</role>
+      </roles>
+    </contributor>
+
+    <contributor>
+      <name>Max Gomes</name>
+      <email>gomesjacinto@hotmail.com</email>
+      <organization></organization>
+      <roles>
+	<role>
+	  Portuguese localization
+	</role>
+      </roles>
+    </contributor>
+
+    <contributor>
+      <name>Maciej Dziergwa</name>
+      <email>mdziergwa@poczta.onet.pl</email>
+      <organization></organization>
+      <roles>
+	<role>
+	  Polish localization
+	</role>
+      </roles>
+    </contributor>
+
+    <contributor>
+      <name>Agoston Deim</name>
+      <email>ago@lsc.hu</email>
+      <organization></organization>
+      <roles>
+	<role>
+	  Hungarian localization
+	</role>
+      </roles>
+    </contributor>
+  </contributors>
+</project>

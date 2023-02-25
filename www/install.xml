@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+  
+  <properties>
+    <title>Install</title>
+  </properties>
+  
+  <body>
+    <section name="Installing and running JMoney">
+      <p>
+	JMoney can be installed in various ways. However, you need a running Java environment which is available at <a href="http://www.java.com">http://www.java.com</a>.
+      </p>
+      
+      <subsection name="Windows">
+	<p>
+	  Download the installer for Windows in the <i>download</i> section.
+	</p>
+      </subsection>
+
+      <subsection name="Web Start">
+	<p>
+	  If you have Java Web Start, then simply click on the this icon: 
+	</p>
+
+	<p>
+	  <center>
+	    <a href="http://jmoney.sf.net/webstart.php">
+	      <img src="images/webstart_small.jpg" border="0"/>
+	    </a>
+	  </center>
+	</p>
+
+	<p>
+	  Mac OS X users should have Web Start by default on their system.
+	</p>
+      </subsection>
+
+      <subsection name="Other platforms">
+	<p>
+	  Unzip the JMoney distribution file. 
+	  At the command prompt, change to the directory where you unzipped JMoney and type the follwing:
+	</p>
+
+	<source><![CDATA[java -jar lib/jmoney.jar]]></source>
+
+	<p>
+	  That's it! JMoney should run now. 
+	  On some systems (e.g. Windows and Mac OS) it may be possible to start JMoney just by double clicking on <code>jmoney.jar</code>.
+	  There is a separate shell script for Unix systems named <i>jmoney</i> in the root directory.
+	</p>
+      </subsection>
+    </section>
+  </body>
+  
+</document>

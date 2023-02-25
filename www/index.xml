@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+
+  <properties>
+    <title>Home</title>
+  </properties>
+
+  <body>
+    <section name="JMoney">
+      <p>
+	JMoney is a personal finance manager written in Java.
+	It supports multiple accounts in different currencies, double entry banking, income/expense categories, various reports and Quicken file (QIF) exchange.
+      </p>
+
+      <p>
+	Languages currently supported are English, German, Italian, Portuguese, Polish and Hungarian.
+	If you want to translate JMoney into another language don't hesitate to contact us.
+	JMoney is in development stage and may be buggy.
+	If you find a bug please submit it to the <a href="http://sourceforge.net/tracker/?atid=117482&amp;group_id=17482&amp;func=browse">bug tracker</a>.
+	There are many features planned: graphs, reconciling, online banking (HBCI), etc.
+      </p>
+
+      <p>
+	<a href="http://jmoney.sf.net/webstart.php">
+	  <center>
+	    <img src="images/webstart.jpg" border="0"/>
+	  </center>
+	</a>
+      </p>
+    </section>
+
+    <section name="News and status">
+      <p>
+      This section contains the latest news and current status regarding the JMoney project.
+    </p>
+
+      <subsection name="Current status">
+	<p>
+	  JMoney is now ready for use with Web Start (see above).
+	  For Windows users, there is now a separate installer available.
+	  Have a look at the <i>download</i> section.
+	</p>
+      </subsection>
+
+      <subsection name="30 September 2003 - JMoney 0.4.4 released">
+        <p>
+	  Changes:
+	</p>
+	<ul>
+	  <li>
+	    Installer for Windows users
+	  </li>
+	  <li>
+	    Java Web Start
+	  </li>
+	  <li>
+	    MT940 import (patch by Jan-Pascal van Best)
+	  </li>
+	  <li>
+	    Date of last entry will be used for date of new entries (patch py Andy Oliver).
+	  </li>
+	  <li>
+	    Update to JasperReports 0.5.0
+	  </li>
+	</ul>
+      </subsection>
+
+      <subsection name="23 January 2003 - JMoney 0.4.3 released">
+        <p>
+	  Changes:
+	</p>
+	<ul>
+	  <li>
+	    Localization to Hungarian (thanks to Agoston Deim)
+	  </li>
+	  <li>
+	    Update to JasperReports 0.4.5
+	  </li>
+	  <li>
+	    New entries are initialized with the current date.
+	  </li>
+	  <li>
+	    Deletion of entries, accounts and categories must be confirmed.
+	  </li>
+	</ul>
+      </subsection>
+
+      <subsection name="19 December 2002 - JMoney 0.4.2 released">
+	<p>
+	  This release supports Polish (thanks to Maciej Dziergwa) and has some minor bug fixes.
+	</p>
+      </subsection>
+
+      <subsection name="27 October 2002 - JMoney 0.4.1 released">
+	<p>
+	  On Windows systems reports didn't display correctly.
+	  There were only three lines on the report and nothing more.
+	  This release fixes this problem.
+	</p>
+      </subsection>
+
+      <subsection name="18 October 2002 - JMoney 0.4.0 released">
+	<p>
+	  This is the first version of JMoney that provides reports.
+	  Two statistics are available: account balances and income/expense.
+	  The reports are fully customizable and can be printed.
+	  Reports are generated using the <a href="http://jasperreports.sourceforge.net">JasperReports</a> report generation tool.
+	</p>
+	<p>
+	  Other Changes:
+	</p>
+	<ul>
+	  <li>
+	    Wait dialog:
+            Since it takes it's time to open and save a JMoney file a wait dialog is shown during this time.
+	  </li>
+	  <li>
+	    Portuguese translation:
+	    Another translation could be added thanks to Max Gomes.
+	  </li>
+	</ul>
+      </subsection>
+
+      <subsection name="29 September 2002 - JMoney 0.3.3 released">
+	<p>
+	  Changes in this version include:
+	</p>
+	<ul>
+	  <li>
+	    Entry filter:
+	    Entries in an account can be filtered with a search string.
+	    The filter either searches all fields of an entry or a specified field.
+	  </li>
+	  <li>
+	    Auto completion for new entries:
+	    While you edit the description field of a new entry, JMoney tries to complete it by searching older entries and suggesting one that might match.
+	  </li>
+	  <li>
+	    Tool bar:
+	    JMoney now features a tool bar with the most important buttons. However, some aren't implemented yet.
+	  </li>
+	  <li>
+	    Icons in menu:
+	    Some Menu entries are now enhanced by icons.
+	  </li>
+	  <li>
+	    Bugfixes: QIF export and display of changed categories.
+	  </li>
+	</ul>
+      </subsection>
+
+      <subsection name="27 September 2002 - Website redesign">
+	<p>
+	  You probably have noticed that JMoney has a new website!
+	</p>
+	<p>
+	  This website is generated with <a href="http://jakarta.apache.org/turbine/maven/">Maven</a>.
+	  Maven is a really great tool.
+	  If you are a programmer and not a website designer then you'll love it.
+	  But Maven is not restricted to the generation of websites; it is a Java project management and project comprehension tool.
+	  Just visit their website.
+	</p>
+      </subsection>
+
+      <subsection name="12 September 2002 - JMoney 0.3.2 released">
+	<p>
+	  This version contains various changes:
+	</p>
+	<ul>
+	  <li>
+	    Simple/extended view of entries:
+	    You can choose between two different views for entries.
+	    The simple view shows the whole entry on one line, although not all fields are displayed.
+	    The extended view shows all entries of a field on three lines instead of one.
+	  </li>
+	  <li>
+	    Sortable Entries:
+	    Entries are sortable by their fields.
+	    Just click on the labels (e.g. Date, Description, etc) in the entry view.
+	  </li>
+	  <li>
+	    Ant build support:
+	    Now, JMoney can be built with Ant.
+	  </li>
+	  <li>
+	    Minor bugfixes.
+	  </li>
+	</ul>
+      </subsection>
+
+      <p>
+	<script language="JavaScript" src="http://m1.nedstatbasic.net/basic.js">
+	</script>
+	<script language="JavaScript">
+	  <!--
+          nedstatbasic("ABzXIwZmkRUZZjSCUOz4fSXbrZWg", 0);
+	  // -->
+	</script>
+	<noscript>
+	  <a href="http://v1.nedstatbasic.net/stats?ABzXIwZmkRUZZjSCUOz4fSXbrZWg">
+	    <img src="http://m1.nedstatbasic.net/n?id=ABzXIwZmkRUZZjSCUOz4fSXbrZWg"
+		 border="0" width="18" height="18"/>
+	  </a>
+	</noscript>
+      </p>
+
+    </section>
+  </body>
+
+</document>

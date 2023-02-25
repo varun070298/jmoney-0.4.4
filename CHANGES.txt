@@ -1,0 +1,49 @@
+0.4.4
+- Windows installer
+- Java Web Start
+- MT940 import support (patch by Jan-Pascal van Best)
+- date of last entry will be used for the date of new entries (patch py Andy Oliver)
+- update to JasperReports 0.5.0
+
+0.4.3
+- update to JasperReports 0.4.5
+- new entries get the current date
+- confirm delete dialog
+- Hungarian localization by Agoston Deim
+
+0.4.2
+- Polish translation by Maciej Dziergwa
+- bugfix: remove entry order names
+
+0.4.1
+- bugfix: reports on Windows didn't display correctly (no fonts)
+
+0.4.0
+- first two reports: account balances and income/expense
+- wait dialogs
+- Portuguese translation (thanks to Max Gomes)
+- automatic generation of Class-Path in jmoney.jar
+- make Kunststoff optional
+
+0.3.3
+- Display of changed categories fixed
+- QIF export fixed
+- icons in menus and tool bar
+- tool bar
+- auto-completion for entries
+- entry filter
+
+0.3.2
+- entries sortable by their fields
+- set application icon
+- different views of an entry: simple or extended
+- move sources into source dir
+- Ant build support (build.xml)
+- remove Makefile
+- fix version names in CHANGES
+
+0.3.1
+- CVS support
+- add a Makefile
+- add a CHANGES file (this file)
+- add Italian support (thanks to Matteo Regazzi)

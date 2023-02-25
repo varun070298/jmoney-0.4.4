@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+
+  <properties>
+    <title>Download</title>
+  </properties>
+
+<body>
+  <section name="Download">
+    <p>
+      There are several distribution files that you can download. 
+      If you want to download another version then go to the SourceForge <a href="http://sourceforge.net/project/showfiles.php?group_id=17482">download area</a>.
+    </p>
+      <subsection name="Latest version">
+        <table>
+          <tr>
+	    <th>Filename</th>
+	    <th>Size</th>
+	    <th>Description</th>
+	  </tr>
+          <tr>
+	    <td><a href="http://prdownloads.sourceforge.net/jmoney/jmoney-0.4.4-setup.exe?download">jmoney-0.4.4-setup.exe</a></td>
+	    <td>872kB</td>
+            <td>
+	      Download this installer if you are using a Windows machine.
+            </td>
+          </tr>
+          <tr>
+	    <td><a href="http://prdownloads.sourceforge.net/jmoney/jmoney-0.4.4.zip?download">jmoney-0.4.4.zip</a></td>
+	    <td>804kB</td>
+            <td>
+	      This distribution contains the files you need in order to run JMoney.
+            </td>
+          </tr>
+          <tr>
+	    <td><a href="http://prdownloads.sourceforge.net/jmoney/jmoney-0.4.4-src.zip?download">jmoney-0.4.4-src.zip</a></td>
+	    <td>1060kB</td>
+            <td>
+	      This distribution contains the source files of JMoney and everything you need to build.
+            </td>
+          </tr>
+        </table>
+      </subsection>
+  </section>
+</body>
+
+</document>

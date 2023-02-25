@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+
+  <properties>
+    <title>Links</title>
+  </properties>
+
+<body>
+  <section name="Related links">
+    <p>
+      Here are some links that might be of interest if you are browsing this page.
+    </p>
+    <subsection name="Personal finance managers">
+      <table>
+        <tr>
+	  <th>Name</th>
+	  <th>Description</th>
+	</tr>
+        <tr>
+	  <td><a href="http://www.gnucash.org">GnuCash</a></td>
+          <td>
+	      A powerful finance manager under GNU/Linux, developed under GPL.
+          </td>
+        </tr>
+        <tr>
+	  <td><a href="http://cbb.sourceforge.net">CBB</a></td>
+          <td>
+	    CBB is a free, open-source application written in TCL/Tk and Perl.
+          </td>
+        </tr>
+        <tr>
+	  <td><a href="http://sunsite.dk/xinvest/xinvest.html">Xinvest</a></td>
+          <td>
+	    Xinvest is a free personal finance tracking and performance tool for the X Window System.
+          </td>
+        </tr>
+        <tr>
+	  <td><a href="http://moneydance.com">Moneydance</a></td>
+          <td>
+	    Moneydance is a another finance manager written in Java.
+	    However, it is not open-source but a free trial version is available.
+          </td>
+        </tr>
+        <tr>
+	  <td><a href="http://eurobudget.sourceforge.net">Eurobudget</a></td>
+          <td>
+	    Eurobudget is written in Java under GPL.
+          </td>
+        </tr>
+        <tr>
+	  <td><a href="http://cbbrowne.com/info/finances.html">Finances, Linux, and Stuff...</a></td>
+          <td>
+	    Contains various links to other projects.
+          </td>
+        </tr>
+      </table>
+    </subsection>
+
+    <subsection name="Miscellaneous">
+      <table>
+        <tr>
+	  <th>Name</th>
+	  <th>Description</th>
+	</tr>
+        <tr>
+	  <td><a href="http://jakarta.apache.org/turbine/maven/">Maven</a></td>
+          <td>
+	    This website was generated with Maven.
+	    This is a great tool and we love it!
+          </td>
+        </tr>
+        <tr>
+	  <td><a href="http://www.incors.org">Kunststoff</a></td>
+          <td>
+	    Kunststoff is the preferred look &amp; feel for JMoney.
+	    Have a look at the screenshots.
+          </td>
+        </tr>
+      </table>
+    </subsection>
+  </section>
+</body>
+
+</document>

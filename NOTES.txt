@@ -1,0 +1,9 @@
+JMoney 0.4.0 Release Notes
+________________________________________________________________________________
+
+This release features the first two reports: account balances and 
+income/expense. Reports are generated using the JasperReports report generation
+tool (http://jasperreports.sourceforge.net). Reports can be displayed and
+printed and are fully customizable. Check it out!
+
+Minor release changes are listed in the changes file.

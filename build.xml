@@ -1,0 +1,80 @@
+<project name="JMoney" default="jar" basedir=".">
+  <description>
+    Ant build file (see http://jakarta.apache.org/ant).
+  </description>
+
+  <!-- set global properties for this build -->
+  <property name="src" location="source"/>
+  <property name="build" location="build"/>
+  <property name="lib" location="lib"/>
+  <property name="deploy" location="deploy"/>
+  <property file="${src}/net/sf/jmoney/resources/General.properties"/>
+
+  <path id="classpath">
+    <fileset dir="${lib}">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+  
+  <target name="init">
+    <tstamp/>
+    <mkdir dir="${build}"/>
+    <mkdir dir="${lib}"/>
+    <mkdir dir="${deploy}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source" >
+    <javac srcdir="${src}" destdir="${build}">
+      <classpath refid="classpath"/>
+    </javac>
+
+    <copy todir="${build}/net/sf/jmoney/images">
+        <fileset dir="${src}/net/sf/jmoney/images"/>
+    </copy>
+
+    <copy todir="${build}/net/sf/jmoney/resources">
+        <fileset dir="${src}/net/sf/jmoney/resources"/>
+    </copy>
+  </target>
+
+  <target name="jar" depends="compile">    
+    <!-- generate manifest -->
+    <dirname property="project.dir" file="build.xml"/>
+    <pathconvert property="classpath.mf"
+                 dirsep="/"
+                 pathsep=" "
+                 refid="classpath">
+      <map from="${project.dir}/lib/" to=""/>
+      <map from="${project.dir}\lib\" to=""/>
+    </pathconvert>
+    <copy file="Manifest"
+          tofile="Manifest.build"
+          overwrite="yes">
+      <filterset>
+        <filter token="CLASSPATH" value="${classpath.mf}"/>
+      </filterset>
+    </copy>
+
+    <jar jarfile="${lib}/jmoney.jar" basedir="${build}" manifest="Manifest.build"/>
+    <signjar jar="${lib}/jmoney.jar" alias="jmoney" storepass="secret"/>
+  </target>
+
+  <target name="deploy" depends="jar">
+    <mkdir dir="${deploy}"/>
+
+    <zip zipfile="${deploy}/jmoney-${Version}.zip" basedir="."
+	 includes="lib/**, jmoney, jmoney.exe, CHANGES.txt, LICENSE.txt, NOTES.txt, README.txt"/>
+
+    <zip zipfile="${deploy}/jmoney-${Version}-src.zip" basedir="."
+	 excludes="build/**, deploy/**, Manifest.build, .project, .classpath, maven.log, velocity.log"/>
+  </target>
+
+  <target name="clean" description="clean up" >
+    <delete dir="${build}"/>
+    <delete dir="${deploy}"/>
+    <delete file="jmoney.jar"/>
+    <delete file="Manifest.build"/>
+  </target>
+
+</project>

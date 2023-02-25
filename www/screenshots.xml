@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+
+  <properties>
+    <title>Screenshots</title>
+  </properties>
+
+<body>
+  <section name="Screenshots">
+    <p>
+      These are the screenshots of a JMoney sample file using the <a href="http://www.incors.org">Kunststoff</a> look and feel.
+    </p>
+
+    <subsection name="Account entries view">
+      <p>
+        This view shows the book entries of an account. Entries may be added, deleted and manipulated.
+      </p>
+      <p>
+        <img src="images/kunststoff-account-entries.jpg"/>
+      </p>
+    </subsection>
+
+    <subsection name="Account properties view">
+      <p>
+        The properties of an account are in a separate tab.
+      </p>
+      <p>
+        <img src="images/kunststoff-account-properties.jpg"/>
+      </p>
+    </subsection>
+
+    <subsection name="Categories view">
+      <p>
+        To each book entry a category may be assigned. 
+        This is used to generate reports or to make transfers to another account
+      </p>
+      <p>
+        <img src="images/kunststoff-categories.jpg"/>
+      </p>
+    </subsection>
+  </section>
+</body>
+
+</document>
